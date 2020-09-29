@@ -67,6 +67,5 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   PV: {fileID: 2570892319914995535}
-  myAvatar: {fileID: 2753341266296874228, guid: 85c44cffff071cf428699e2ab0ff0575,
-    type: 3}
+  myAvatar: {fileID: 1824340380413090, guid: 0e74cf81e6fd82546b4797f71ceffb81, type: 3}
   myTeam: 0

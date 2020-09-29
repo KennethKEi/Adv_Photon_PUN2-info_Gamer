@@ -40,7 +40,7 @@ public class PhotonPlayer : MonoBehaviour
 
         if (PV.IsMine)
         {
-            myAvatar = PhotonNetwork.Instantiate(Path.Combine("PhotonPrefabs", "PlayerAvatar"),
+            myAvatar = PhotonNetwork.Instantiate(Path.Combine("PhotonPrefabs", "MaleFreeSimpleMovement1"),
                 GameSetup.GS.spawnPointsTeamOne[spawnPicker].position, GameSetup.GS.spawnPointsTeamOne[spawnPicker].rotation, 0);
         }
 
@@ -53,7 +53,7 @@ public class PhotonPlayer : MonoBehaviour
 
             if (PV.IsMine)
             {
-                myAvatar = PhotonNetwork.Instantiate(Path.Combine("PhotonPrefabs", "PlayerAvatar"),
+                myAvatar = PhotonNetwork.Instantiate(Path.Combine("PhotonPrefabs", "MaleFreeSimpleMovement1"),
                     GameSetup.GS.spawnPointsTeamTwo[spawnPicker].position, GameSetup.GS.spawnPointsTeamTwo[spawnPicker].rotation, 0);
             }
 
